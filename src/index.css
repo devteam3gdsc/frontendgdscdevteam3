@@ -1,0 +1,21 @@
+@tailwind base; /*HTML elements*/
+@tailwind components; /*complicated classes like card, button, batch,etc*/
+@tailwind utilities; /*outside tailwind features*/
+/*tailwind layers*/
+
+body {
+  @apply font-serif; /* Applies the custom sans-serif font globally */
+}
+
+/*custom css
+*{
+  font-style: italic;
+}
+@layer components{
+  .card{
+    @apply flex /*the same as display: flex;
+    color: aqua; /*css code
+    background-color: theme("colors.twitter-blue");
+  }
+}
+*/
